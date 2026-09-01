@@ -38,6 +38,7 @@
     --text-3xl--line-height: calc(2.25 / 1.875);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --leading-tight: 1.25;
@@ -337,8 +338,29 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
+  .mt-\[-1\\00px\] {
+    margin-top: -1\00px;
+  }
   .mt-\[-50px\] {
     margin-top: -50px;
+  }
+  .mt-\[-100px\] {
+    margin-top: -100px;
+  }
+  .mt-\[-200px\] {
+    margin-top: -200px;
+  }
+  .mt-\[-280px\] {
+    margin-top: -280px;
+  }
+  .mt-\[-300px\] {
+    margin-top: -300px;
+  }
+  .mt-\[30px\] {
+    margin-top: 30px;
+  }
+  .mt-\[200px\] {
+    margin-top: 200px;
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
@@ -352,6 +374,9 @@
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
+  .ml-\[30px\] {
+    margin-left: 30px;
+  }
   .ml-\[70px\] {
     margin-left: 70px;
   }
@@ -360,6 +385,33 @@
   }
   .ml-\[100px\] {
     margin-left: 100px;
+  }
+  .ml-\[150px\] {
+    margin-left: 150px;
+  }
+  .ml-\[200px\] {
+    margin-left: 200px;
+  }
+  .ml-\[250px\] {
+    margin-left: 250px;
+  }
+  .ml-\[300px\] {
+    margin-left: 300px;
+  }
+  .ml-\[320px\] {
+    margin-left: 320px;
+  }
+  .ml-\[330px\] {
+    margin-left: 330px;
+  }
+  .ml-\[450px\] {
+    margin-left: 450px;
+  }
+  .ml-\[500px\] {
+    margin-left: 500px;
+  }
+  .ml-\[520px\] {
+    margin-left: 520px;
   }
   .flex {
     display: flex;
@@ -897,11 +949,20 @@
   .text-\[24px\] {
     font-size: 24px;
   }
+  .text-\[25px\] {
+    font-size: 25px;
+  }
   .text-\[26px\] {
     font-size: 26px;
   }
   .text-\[27px\] {
     font-size: 27px;
+  }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
   }
   .text-\[55px\] {
     font-size: 55px;
@@ -935,6 +996,10 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
   }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
